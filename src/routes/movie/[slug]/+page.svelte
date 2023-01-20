@@ -3,7 +3,6 @@
 
 	export let data;
 	let movieDetails = data.props.movieDetails;
-	console.log(movieDetails);
 </script>
 
 <div class="container w-full">
