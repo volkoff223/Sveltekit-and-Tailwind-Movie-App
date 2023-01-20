@@ -23,7 +23,7 @@
 </script>
 
 {#if loaded}
-	<img {src} class="mx-auto rounded-[30px]" alt="Movie Background" />
+	<img {src} class="mx-auto rounded-[30px] my-5 border-4 border-slate-900" alt="Movie Background" />
 {:else if failed}
 	<img
 		class="mx-auto h-96"

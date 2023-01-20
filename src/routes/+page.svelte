@@ -3,8 +3,8 @@
 	export let data;
 </script>
 
-<h1>Movie App</h1>
+<div class="text-6xl font-bold text-center pt-9">Movie App</div>
 
-<h1>Welcome to The Movie App</h1>
+<div class="text-2xl font-medium text-center">Check out some popular movies.</div>
 
 <Popular movies={data} />
