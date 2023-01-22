@@ -9,4 +9,5 @@ export async function load({ fetch }) {
 			props: { popular: data.results }
 		};
 	}
+	// Need to check for errors
 }

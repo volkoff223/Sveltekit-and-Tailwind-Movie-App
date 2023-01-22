@@ -8,4 +8,5 @@ export async function load({ fetch, params }) {
 			props: { category: data.results }
 		};
 	}
+	// Need to check for errors
 }
