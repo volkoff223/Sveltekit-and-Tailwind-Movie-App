@@ -1,16 +1,15 @@
 <script>
-	let selected = '';
-	let category = ['popular', 'now_playing', 'top_rated', 'upcoming'];
+	let selected;
+	let category = ['Select a category', 'popular', 'now_playing', 'top_rated', 'upcoming'];
 	function handleClick() {
 		window.location.href = `/movies-category/${selected}`;
 	}
 </script>
 
-<label
-	>Select an category:
+<label>
 	<select bind:value={selected}>
 		{#each category as value}
-			<option on:click={handleClick} {value}>
+			<option id={value} on:click={handleClick} {value}>
 				{value}
 			</option>
 		{/each}
