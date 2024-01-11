@@ -2,5 +2,8 @@
 module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {},
-	plugins: [require('@tailwindcss/aspect-ratio')]
+	plugins: [require('daisyui')],
+	daisyui: {
+		themes: ['retro']
+	}
 };
